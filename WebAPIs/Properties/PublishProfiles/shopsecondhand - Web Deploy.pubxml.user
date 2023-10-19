@@ -6,8 +6,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project>
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARMrNlII/FUCoYAxR/wG4nQAAAAACAAAAAAAQZgAAAAEAACAAAABmxpQ3DbkQYrQw1TTjUPYO3paW8K7rT7EUuKgkOacRKwAAAAAOgAAAAAIAACAAAACGOoURE8rpjpQOaox8J1Tq3vIMYrhBN1+b9/B3fQazZYAAAAC9iqBvCzjF3ZnY8pQOhX5t016jQ9DXnrhVaKeHUufol6h7lqx9sKT9ywrHsg5oZUT6J6BaNmibMWD29V7Gz1gd6/mnXjC8D/p/cALDhI/qwFYskVi6J1aVGvBfaiOb53X532Omtg00M5fIlprH3qTnxdpui5PVhmaGfpmU47CUWEAAAAClGaSUrdCUWdC8Pcoei9JkDaSKATbr8Z8x08c4pqWkA6s5uKioEBnV3HYUqWeTDkGhIaE4VDYo7iRmnmWTldJt</EncryptedPassword>
-    <History>True|2023-10-15T10:38:36.2273364Z;True|2023-10-14T20:00:17.9887858+07:00;True|2023-10-14T12:12:32.3000241+07:00;True|2023-10-12T15:22:32.3167894+07:00;True|2023-10-12T13:57:03.3322641+07:00;True|2023-10-11T19:53:12.6003074+07:00;True|2023-10-11T18:04:51.4364738+07:00;</History>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZR6YIYhGHEq+J9QJ+3quKwAAAAACAAAAAAAQZgAAAAEAACAAAAC63eQTCDgXOsRNEtcfaWME/b6dUAHjEj3qbMuJInlTkgAAAAAOgAAAAAIAACAAAADBzbGaZfAP/D3b6Kt5LCyZQNCz5VGsAhMaxpxlJ9GhbIAAAACocvpn4ievlIZKrGYfKv7LwA+G3PKU2tQTwfv7gLyC1XF2dNYbV4QOueSgk8gscVGtX/KGqtP+ea4Dtrr5HaVHgHCT5oEWwgkgZjxdjqKxGxmdJZo9X3i3VwUEegn6u+0/uiOVxG4orfZ84caqHDLG/qRANpuykUldts5J8ESon0AAAAD1Nm7eZPRXO3Mdpw/56ubuRBojHjH4kV1RdHDyS9rX9wYp+T7+ajbgIKf3h5Tm7bprksc6yRMxymj5X6VslK6w</EncryptedPassword>
+    <History>True|2023-10-19T09:50:21.3895703Z;True|2023-10-19T15:51:46.0474641+07:00;True|2023-10-19T15:50:15.1811486+07:00;True|2023-10-19T15:47:21.2232049+07:00;False|2023-10-19T15:46:30.2371014+07:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SecondHandDb">
+      <Value>Data Source=tcp:secondhanddb.database.windows.net,1433%3bInitial Catalog=secondhandDb%3bUser Id=sa%40secondhanddb%3bPassword=12345</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
 </Project>

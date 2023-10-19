@@ -81,5 +81,11 @@ namespace WebAPIs.Controllers
             }
             return Unauthorized();
         }
+        [HttpGet("count")]
+        public async Task<IActionResult> CountUser()
+        {
+
+            return Ok(await _userService.Count());
+        }
     }
 }

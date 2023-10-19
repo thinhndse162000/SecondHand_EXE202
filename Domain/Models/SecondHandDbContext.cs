@@ -113,8 +113,8 @@ namespace Domain.Models
                     .HasMaxLength(500)
                     .IsUnicode(false);
 
-                entity.Property(e => e.StatusOfProduct)
-                    .HasMaxLength(29)
+                entity.Property(e => e.Cond)
+                    .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.Category)
@@ -189,6 +189,8 @@ namespace Domain.Models
                     .IsUnicode(false);
 
                 entity.Property(e => e.UserName).HasMaxLength(50);
+
+                entity.Property(e => e.Avatar).HasMaxLength(500);
 
                 entity.Property(e => e.Phone).HasMaxLength(25);
             });

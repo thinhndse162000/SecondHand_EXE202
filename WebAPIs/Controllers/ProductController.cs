@@ -95,5 +95,18 @@ namespace WebAPIs.Controllers
             var entity = await _service.Filter(predicate);
             return Ok(entity);
         }
+
+        [HttpGet("category/{id}")]
+        public async Task<IActionResult> GetProductByCategoryId(Guid id) {
+            var entity = await _service.GetProdctByCategory(id);
+            if (entity == null) return NotFound();
+            return Ok(entity);
+        }
+        [HttpGet("count")]
+        public async Task<IActionResult> CountProduct()
+        {
+             
+            return Ok(await _service.Count());
+        }
     }
 }

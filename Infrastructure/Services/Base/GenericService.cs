@@ -52,5 +52,10 @@ namespace Infrastructure.Services.Base
             await _unitOfWork.GetRepository<T>().Update(entity);
             await _unitOfWork.CommitAsync();
         }
+
+        public async Task<int> Count()
+        {
+            return await _unitOfWork.GetRepository<T>().Count();
+        }
     }
 }

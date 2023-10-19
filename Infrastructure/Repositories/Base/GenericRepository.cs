@@ -76,5 +76,10 @@ namespace Infrastructure.Repositories.Base
         {
             _db.Set<T>().Update(entity);
         }
+
+        public async Task<int> Count()
+        {
+            return await _db.Set<T>().CountAsync();
+        }
     }
 }

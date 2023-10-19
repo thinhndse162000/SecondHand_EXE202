@@ -25,6 +25,12 @@ namespace Infrastructure.Repositories
                                     .ThenInclude(user => user.User).ToListAsync();
         }
 
+        public async Task<IEnumerable<Product>> GetProdctByCategory(Guid id)
+        {
+            var product = await _db.Products.Where(p=> p.CategoryId == id).ToListAsync();
+            return product;
+        }
+
         public async Task<Product> GetProductContainUser(Guid id)
         {
             var product = await _db.Products.Include(storage => storage.Storage)

@@ -65,5 +65,11 @@ namespace WebAPIs.Controllers
             await _service.Delete(id);
             return NoContent();
         }
+        [HttpGet("count")]
+        public async Task<IActionResult> CountOrder()
+        {
+
+            return Ok(await _service.Count());
+        }
     }
 }

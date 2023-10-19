@@ -24,6 +24,11 @@ namespace Infrastructure.Services
             return await _repo.GetAllIncludeUser();
         }
 
+        public async Task<IEnumerable<Product>> GetProdctByCategory(Guid id)
+        {
+            return await _repo.GetProdctByCategory(id);
+        }
+
         public async Task<Product> GetProductContainUser(Guid id)
         {
             return await _repo.GetProductContainUser(id);

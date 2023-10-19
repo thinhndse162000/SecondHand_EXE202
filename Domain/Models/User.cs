@@ -15,6 +15,8 @@ namespace Domain.Models
         
         public Guid UserId { get; set; }
         public string UserName { get; set; } = null!;
+        public string? Avatar { get; set; }
+        
         [DefaultValue("User")]
         public string? Role { get; set; }
         public string? Gender { get; set; }

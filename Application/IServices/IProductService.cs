@@ -12,5 +12,6 @@ namespace Application.IServices
     {
         Task<Product> GetProductContainUser(Guid id);
         Task<IEnumerable<Product>> GetAllIncludeUser();
+        Task<IEnumerable<Product>> GetProdctByCategory(Guid id);
     }
 }

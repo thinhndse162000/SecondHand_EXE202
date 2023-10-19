@@ -16,5 +16,6 @@ namespace Application.IRepositories.Base
         Task<T> Get(Guid id, string? include);
         Task<IEnumerable<T>> GetAll(string? include);
         Task<IEnumerable<T>> Filter(Expression<Func<T, bool>> predicate);
+        Task<int> Count();
     }
 }

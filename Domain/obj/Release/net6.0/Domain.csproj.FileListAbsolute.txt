@@ -12,3 +12,17 @@ C:\Users\Admin\source\repos\EXE202_SecondHandShop\Domain\obj\Release\net6.0\refi
 C:\Users\Admin\source\repos\EXE202_SecondHandShop\Domain\obj\Release\net6.0\Domain.pdb
 C:\Users\Admin\source\repos\EXE202_SecondHandShop\Domain\obj\Release\net6.0\Domain.genruntimeconfig.cache
 C:\Users\Admin\source\repos\EXE202_SecondHandShop\Domain\obj\Release\net6.0\ref\Domain.dll
+C:\Users\phamthong\Documents\ZZZ\PRN221\SecondHand_EXE202\Domain\bin\Release\net6.0\Domain.deps.json
+C:\Users\phamthong\Documents\ZZZ\PRN221\SecondHand_EXE202\Domain\bin\Release\net6.0\Domain.runtimeconfig.json
+C:\Users\phamthong\Documents\ZZZ\PRN221\SecondHand_EXE202\Domain\bin\Release\net6.0\Domain.dll
+C:\Users\phamthong\Documents\ZZZ\PRN221\SecondHand_EXE202\Domain\bin\Release\net6.0\Domain.pdb
+C:\Users\phamthong\Documents\ZZZ\PRN221\SecondHand_EXE202\Domain\obj\Release\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\phamthong\Documents\ZZZ\PRN221\SecondHand_EXE202\Domain\obj\Release\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phamthong\Documents\ZZZ\PRN221\SecondHand_EXE202\Domain\obj\Release\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\phamthong\Documents\ZZZ\PRN221\SecondHand_EXE202\Domain\obj\Release\net6.0\Domain.AssemblyInfo.cs
+C:\Users\phamthong\Documents\ZZZ\PRN221\SecondHand_EXE202\Domain\obj\Release\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\phamthong\Documents\ZZZ\PRN221\SecondHand_EXE202\Domain\obj\Release\net6.0\Domain.dll
+C:\Users\phamthong\Documents\ZZZ\PRN221\SecondHand_EXE202\Domain\obj\Release\net6.0\refint\Domain.dll
+C:\Users\phamthong\Documents\ZZZ\PRN221\SecondHand_EXE202\Domain\obj\Release\net6.0\Domain.pdb
+C:\Users\phamthong\Documents\ZZZ\PRN221\SecondHand_EXE202\Domain\obj\Release\net6.0\Domain.genruntimeconfig.cache
+C:\Users\phamthong\Documents\ZZZ\PRN221\SecondHand_EXE202\Domain\obj\Release\net6.0\ref\Domain.dll
