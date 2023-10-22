@@ -7,7 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZR6YIYhGHEq+J9QJ+3quKwAAAAACAAAAAAAQZgAAAAEAACAAAAC63eQTCDgXOsRNEtcfaWME/b6dUAHjEj3qbMuJInlTkgAAAAAOgAAAAAIAACAAAADBzbGaZfAP/D3b6Kt5LCyZQNCz5VGsAhMaxpxlJ9GhbIAAAACocvpn4ievlIZKrGYfKv7LwA+G3PKU2tQTwfv7gLyC1XF2dNYbV4QOueSgk8gscVGtX/KGqtP+ea4Dtrr5HaVHgHCT5oEWwgkgZjxdjqKxGxmdJZo9X3i3VwUEegn6u+0/uiOVxG4orfZ84caqHDLG/qRANpuykUldts5J8ESon0AAAAD1Nm7eZPRXO3Mdpw/56ubuRBojHjH4kV1RdHDyS9rX9wYp+T7+ajbgIKf3h5Tm7bprksc6yRMxymj5X6VslK6w</EncryptedPassword>
-    <History>True|2023-10-19T09:50:21.3895703Z;True|2023-10-19T15:51:46.0474641+07:00;True|2023-10-19T15:50:15.1811486+07:00;True|2023-10-19T15:47:21.2232049+07:00;False|2023-10-19T15:46:30.2371014+07:00;</History>
+    <History>True|2023-10-22T01:07:59.2523382Z;True|2023-10-19T16:50:21.3895703+07:00;True|2023-10-19T15:51:46.0474641+07:00;True|2023-10-19T15:50:15.1811486+07:00;True|2023-10-19T15:47:21.2232049+07:00;False|2023-10-19T15:46:30.2371014+07:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>

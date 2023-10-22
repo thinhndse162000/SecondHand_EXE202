@@ -33,7 +33,7 @@ namespace Infrastructure.Repositories
 
         public async Task<Product> GetProductContainUser(Guid id)
         {
-            var product = await _db.Products.Include(storage => storage.Storage)
+            var product = await _db.Products.Where(p=>p.ProductId == id).Include(storage => storage.Storage)
                                             .ThenInclude(user => user.User).Where(p => p.ProductId == id).FirstOrDefaultAsync();
             return product;
         }

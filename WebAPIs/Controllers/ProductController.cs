@@ -87,10 +87,10 @@ namespace WebAPIs.Controllers
             Expression<Func<Product, bool>> predicate = null;
             if (ProductName != null)
             {
-                predicate = u => u.ProductName.Equals(ProductName);
+                predicate = u => u.ProductName.Contains(ProductName);
             }
             else if (Size != null) {
-                predicate = u => u.Size == Size;
+                predicate = u => u.Size.Contains(Size);
             }
             var entity = await _service.Filter(predicate);
             return Ok(entity);
