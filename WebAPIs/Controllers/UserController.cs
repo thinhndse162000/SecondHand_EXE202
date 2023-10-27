@@ -2,6 +2,7 @@
 using Application.IServices.Base;
 using Domain.Models;
 using Domain.Request.User;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,14 +15,22 @@ namespace WebAPIs.Controllers
     {
         private readonly IUserService _userService;
         private readonly IStorageService _storageService;
-        public UserController(IUserService userService, IStorageService storageService)
+        private readonly IEmailService _emailService;
+
+        public UserController(IUserService userService, IStorageService storageService, IEmailService emailService)
         {
             _userService = userService;
             _storageService = storageService;
+            _emailService = emailService;
         }
         [HttpPost]
         public async Task<IActionResult> Create(User entity)
         {
+            var user = await _userService.GetByEmail(entity.Email);
+            string message = "Email Already Registered";
+            if (user != null) {
+                return BadRequest(message);
+            }
             entity.UserId = Guid.NewGuid();
             entity.Role = "User";
             await _userService.Create(entity);
@@ -29,7 +38,7 @@ namespace WebAPIs.Controllers
             storage.StorageId = Guid.NewGuid();
             storage.UserId = entity.UserId;
             await _storageService.Create(storage);
-            return Ok();
+            return Ok("User Create Success");
         }
 
         [HttpGet("{id}")]
@@ -86,6 +95,11 @@ namespace WebAPIs.Controllers
         {
 
             return Ok(await _userService.Count());
+        }
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> EmailForgotPassword(string recipientEmail) {
+            await _emailService.SendForgotPassword(recipientEmail);
+            return Ok("Message Sending to Your Email");
         }
     }
 }

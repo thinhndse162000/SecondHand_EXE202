@@ -18,6 +18,9 @@ namespace Domain.Models
 
         public string? Description { get; set; }
         public string? Cond { get; set; }
+        public string? Color { get; set; }
+        public string? Style { get; set; }
+        public string? Brand { get; set; }
         public string? OriginalImage { get; set; }
         public Guid StorageId { get; set; }
         public Guid CategoryId { get; set; }

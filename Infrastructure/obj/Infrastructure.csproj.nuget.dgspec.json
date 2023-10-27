@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\EXE_Backend\\SecondHand_EXE202\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Application\\Application.csproj": {
+    "D:\\EXE_Backend\\SecondHand_EXE202\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\EXE_Backend\\SecondHand_EXE202\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\phamthong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Application\\obj\\",
+        "projectPath": "D:\\EXE_Backend\\SecondHand_EXE202\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\EXE_Backend\\SecondHand_EXE202\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\phamthong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Domain\\Domain.csproj"
+              "D:\\EXE_Backend\\SecondHand_EXE202\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\EXE_Backend\\SecondHand_EXE202\\Domain\\Domain.csproj"
               }
             }
           }
@@ -60,32 +60,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Domain\\Domain.csproj": {
+    "D:\\EXE_Backend\\SecondHand_EXE202\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\EXE_Backend\\SecondHand_EXE202\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\phamthong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Domain\\obj\\",
+        "projectPath": "D:\\EXE_Backend\\SecondHand_EXE202\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\EXE_Backend\\SecondHand_EXE202\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\phamthong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -151,32 +145,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\EXE_Backend\\SecondHand_EXE202\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\EXE_Backend\\SecondHand_EXE202\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\phamthong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Infrastructure\\obj\\",
+        "projectPath": "D:\\EXE_Backend\\SecondHand_EXE202\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\EXE_Backend\\SecondHand_EXE202\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\phamthong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -190,11 +178,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Application\\Application.csproj"
+              "D:\\EXE_Backend\\SecondHand_EXE202\\Application\\Application.csproj": {
+                "projectPath": "D:\\EXE_Backend\\SecondHand_EXE202\\Application\\Application.csproj"
               },
-              "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\phamthong\\Documents\\ZZZ\\PRN221\\SecondHand_EXE202\\Domain\\Domain.csproj"
+              "D:\\EXE_Backend\\SecondHand_EXE202\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\EXE_Backend\\SecondHand_EXE202\\Domain\\Domain.csproj"
               }
             }
           }
@@ -209,9 +197,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.15, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -225,18 +225,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

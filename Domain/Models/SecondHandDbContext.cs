@@ -32,7 +32,24 @@ namespace Domain.Models
             optionsBuilder.EnableSensitiveDataLogging();
             optionsBuilder.UseSqlServer(config.GetConnectionString("SecondHandDb"));
         }
-
+        public string GetSenderEmail()
+        {
+            IConfiguration config = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", true, true)
+                .Build();
+            var strEmail = config["EmailSender:SmtpUser"];
+            return strEmail;
+        }
+        public string GetSenderPassword()
+        {
+            IConfiguration config = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", true, true)
+                .Build();
+            var strEmail = config["EmailSender:SmtpPassword"];
+            return strEmail;
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>(entity =>
@@ -111,12 +128,20 @@ namespace Domain.Models
 
                 entity.Property(e => e.Description)
                     .HasMaxLength(500)
-                    .IsUnicode(false);
+                    .IsUnicode(true);
 
                 entity.Property(e => e.Cond)
                     .HasMaxLength(50)
-                    .IsUnicode(false);
-
+                    .IsUnicode(true);
+                entity.Property(e => e.Style)
+                   .HasMaxLength(50)
+                   .IsUnicode(true);
+                entity.Property(e => e.Brand)
+                  .HasMaxLength(50)
+                  .IsUnicode(true);
+                entity.Property(e => e.Color)
+                  .HasMaxLength(50)
+                  .IsUnicode(true);
                 entity.HasOne(d => d.Category)
                     .WithMany(p => p.Products)
                     .HasForeignKey(d => d.CategoryId)
@@ -174,6 +199,8 @@ namespace Domain.Models
 
                 entity.Property(e => e.Email).HasMaxLength(50);
 
+                entity.HasIndex(e => e.Email).IsUnique();
+
                 entity.Property(e => e.Facebook).HasMaxLength(50);
 
                 entity.Property(e => e.Gender)
@@ -193,6 +220,7 @@ namespace Domain.Models
                 entity.Property(e => e.Avatar).HasMaxLength(500);
 
                 entity.Property(e => e.Phone).HasMaxLength(25);
+                entity.HasIndex(e => e.Phone).IsUnique();
             });
 
             OnModelCreatingPartial(modelBuilder);
